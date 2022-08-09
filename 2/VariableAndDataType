@@ -1,0 +1,27 @@
+public class VariableAndDataType {
+    public static void main(String[] args){
+        // 변수의 초기화 : 변수에 초기값을 주는 행위
+        int age = 25;
+
+        // 문자 리터럴 : 작은 따옴표로 묶은 텍스트는 하나의 문자 리터럴로 간주
+        char alph = 'A';
+
+        // 문자열 리터럴 : 큰따옴표로 묶은 텍스트를 문자열 리터럴로 간주
+        String name = "ayj";
+
+        // 실수 타입 (float, double)
+        double var1 = 3.14; 
+        float var2 = 3.14f; // float을 사용할 땐 뒤에 f를 붙혀야한다.
+
+        // 타입 변환
+        // 1. 자동 타입 변환 : 작은 크기를 가지는 타입이 큰 크기를 가지는 타입에 저장될 때 발생
+        byte num1 = 10;
+        int num2 = num1;
+
+        // 2. 강제 타입 변환 : 강제적으로 큰 데이터 타입을 작은 데이터 타입으로 쪼개어서 저장함
+        double doubleValue = 3.14;
+        int intValue = (int) doubleValue;
+
+
+    }
+}
