@@ -1,0 +1,31 @@
+public class Operations {
+    public static void main(String[] args){
+        // 연산자
+
+        // 나누기 연산 '/'
+        double a =(double) 10/4;
+        System.out.println(a);
+        // 나머지 연산 '%'
+        int b = 10%4;
+        System.out.println(b);
+
+        // 문자 연결 시 '+' 사용
+        String str1 = "hello";
+        String str2 = "world!";
+        System.out.println(str1 + " " + str2);
+
+        // '==' 과 'equals()' 비교
+        String str3 = "안녕";
+        String str4 = new String("안녕");
+        // '==' 은 같은 객체를 참조하는지 확인
+        System.out.println(str3==str4);
+        // equals() 는 단순히 문자열이 같은지 확인
+        System.out.println(str3.equals(str4));
+
+        // 삼항 연산자
+        // 조건식 ? 값 또는 연산식1(true일 경우) : 값 또는 연산식2(false일 경우)
+        int score = 95;
+        char grade = (score>90) ? 'A':'B';
+        System.out.println(grade);
+    }
+}
